@@ -39,7 +39,7 @@ function preload() {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background('#000000');
+  background(0);
 
   savedTime = millis();
 
