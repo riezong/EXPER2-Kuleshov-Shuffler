@@ -118,6 +118,8 @@ function draw() {
 
   //Image shuffler
   if (scene == 3) {
+    background('#333333');
+
     //Loading image
     img = createImg(names[i], "");
     image(img, posX, posY, 400, 300);
