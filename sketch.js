@@ -101,7 +101,7 @@ function draw() {
     rect(posX, posY - 1, 90, 20);
     fill('#ff8800');
     textAlign(LEFT, TOP);
-    text("Main " + (i + 1), posX + 10, posY + 1);
+    text("Main ", posX + 10, posY + 1);
 
     // Timer
     countdown = ceil((timer - millis()) / 1000);
