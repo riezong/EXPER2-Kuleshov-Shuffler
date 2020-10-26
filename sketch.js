@@ -44,7 +44,6 @@ function setup() {
   savedTime = millis();
 
   pixelDensity(displayDensity());
-  //frameRate(2);
   
   // Generate first image
   i = int(random(12));
